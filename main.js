@@ -12,7 +12,7 @@ $(document).ready(function(){
             });
 
             $('.borrar').click(function(){
-                var index = $('.borrar').index(this) +1;
+                var index = $('.borrar').index(this);
                 var eliminar = $('tr');
         
                 eliminar[index].remove();
